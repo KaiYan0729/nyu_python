@@ -1,0 +1,9 @@
+total 8
+-rwxr-xr-x 1 kyan7 kyan7 389 Jun 10 12:59 vagrant-linux-insert-public-key20170610-11336-ig4ajq
+-rwxr-xr-x 1 kyan7 kyan7 389 Jun 10 15:52 vagrant-linux-insert-public-key20170610-11828-1xvaofl
+-rwxr-xr-x 1 kyan7 kyan7 389 Jun 10 13:58 vagrant-linux-insert-public-key20170610-4700-1xbzkki
+-rwxr-xr-x 1 kyan7 kyan7 389 Jun 10 15:12 vagrant-linux-insert-public-key20170610-8804-js5pen
+-rwxr-xr-x 1 kyan7 kyan7 409 Jun 10 15:52 vagrant-linux-remove-public-key20170610-11828-1yebkiq
+-rwxr-xr-x 1 kyan7 kyan7 409 Jun 10 13:58 vagrant-linux-remove-public-key20170610-4700-1rc9kdl
+-rwxr-xr-x 1 kyan7 kyan7 409 Jun 21 22:11 vagrant-linux-remove-public-key20170622-7504-8vpd0c
+-rwxr-xr-x 1 kyan7 kyan7 252 Jun 10 15:52 vagrant-shell20170610-11828-x4gxeg.sh

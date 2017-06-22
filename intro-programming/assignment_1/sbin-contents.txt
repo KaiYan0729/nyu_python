@@ -1,0 +1,17 @@
+total 852
+-rwxr-xr-x 1 kyan7 kyan7  33811 Mar 23  2015 agetty.exe
+-rwxr-xr-x 1 kyan7 kyan7  33299 Mar 23  2015 blkid.exe
+-rwxr-xr-x 1 kyan7 kyan7 220691 Mar 23  2015 cfdisk.exe
+-rwxr-xr-x 1 kyan7 kyan7 231443 Mar 23  2015 fdisk.exe
+-rwxr-xr-x 1 kyan7 kyan7  11283 Mar 23  2015 findfs.exe
+-rwxr-xr-x 1 kyan7 kyan7  29203 Mar 23  2015 fsck.cramfs.exe
+-rwxr-xr-x 1 kyan7 kyan7  32275 Mar 23  2015 fsck.minix.exe
+-rwxr-xr-x 1 kyan7 kyan7  23059 Mar 23  2015 mkfs.bfs.exe
+-rwxr-xr-x 1 kyan7 kyan7  29715 Mar 23  2015 mkfs.cramfs.exe
+-rwxr-xr-x 1 kyan7 kyan7  13331 Mar 23  2015 mkfs.exe
+-rwxr-xr-x 1 kyan7 kyan7  28691 Mar 23  2015 mkfs.minix.exe
+-rwxr-xr-x 1 kyan7 kyan7  27155 Mar 23  2015 mkswap.exe
+-rwxr-xr-x 1 kyan7 kyan7  10771 Mar 23  2015 nologin.exe
+-rwxr-xr-x 1 kyan7 kyan7  71187 Mar 23  2015 sfdisk.exe
+-rwxr-xr-x 1 kyan7 kyan7  14355 Mar 23  2015 swaplabel.exe
+-rwxr-xr-x 1 kyan7 kyan7  26131 Mar 23  2015 wipefs.exe
