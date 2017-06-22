@@ -1,0 +1,12 @@
+total 776
+drwxr-xr-x+ 1 kyan7 kyan7 0 Jun 10 11:11 bin
+drwxr-xr-x+ 1 kyan7 kyan7 0 Jun 10 11:11 include
+drwxr-xr-x+ 1 kyan7 kyan7 0 Jun 10 11:11 lib
+drwxr-xr-x+ 1 kyan7 kyan7 0 Jun 10 11:11 libexec
+drwxr-xr-x+ 1 kyan7 kyan7 0 Jun 10 11:06 local
+drwxr-xr-x+ 1 kyan7 kyan7 0 Jun 10 11:11 sbin
+drwxr-xr-x+ 1 kyan7 kyan7 0 Jun 10 11:11 share
+drwxr-xr-x+ 1 kyan7 kyan7 0 Jun 10 11:06 src
+drwxr-xr-x+ 1 kyan7 kyan7 0 Jun 10 11:10 ssl
+drwxrwxrwt+ 1 kyan7 kyan7 0 Jun 10 11:06 tmp
+drwxr-xr-x+ 1 kyan7 kyan7 0 Jun 10 11:07 x86_64-pc-cygwin

@@ -1,0 +1,11 @@
+total 4
+drwxr-xr-x+ 1 kyan7 kyan7 0 Jun 10 11:10 cache
+drwxr-xr-x+ 1 kyan7 kyan7 0 Jun 10 11:15 empty
+drwxr-xr-x+ 1 kyan7 kyan7 0 Jun 10 11:15 lib
+drwxr-xr-x+ 1 kyan7 kyan7 0 Jun 10 11:15 lock
+drwxrwxrwt+ 1 kyan7 kyan7 0 Jun 10 11:19 log
+drwxrwxr-x+ 1 kyan7 kyan7 0 Jun 10 11:10 openldap
+drwxrwxrwt+ 1 kyan7 kyan7 0 Jun 10 11:11 run
+drwxr-xr-x+ 1 kyan7 kyan7 0 Jun 10 11:10 spool
+drwxrwxrwt+ 1 kyan7 kyan7 0 Jun 10 11:06 tmp
+drwxr-xr-x+ 1 kyan7 kyan7 0 Jun 10 11:11 varnish
