@@ -4,11 +4,11 @@ if __name__ == '__main__':
 	
 def to_fahrenheit(degrees_celsius):
 	degrees_fahrenheit = 9/5* degrees_celsius + 32
-    return degrees_celsius
+    return degrees_fahrenheit
 
 def to_celsius(degrees_fahrenheit):
 	degrees_celsius = 5/9*(degrees_fahrenheit - 32)
-    return degrees_fahrenheit
+    return degrees_celsius
 
 
 import math
