@@ -6,12 +6,12 @@ import numpy as np
 import sys
 from math import *
 
-#time to expiration in years
+#Time to expiration in years
 t = 1
 
-#binomial tree model
+#Binomial Tree model
 def tree(stock_price, strike_price, rf, volatility, div_yield, steps, flavor):
-	#inputs
+	#Inputs
     Dt = t / steps
     r_Dt = rf * Dt
     exp_r_Dt = math.exp(r_Dt)
@@ -27,7 +27,7 @@ def tree(stock_price, strike_price, rf, volatility, div_yield, steps, flavor):
     q = (exp_r_Dt * exp_neg_div_Dt - d) / (u -d)
     p = 1 - q
 
-	#step by step matrix calculation with estimated price of the underlying 
+	#Step by step matrix calculation with estimated price of the underlying 
     sv = np.zeros((steps + 1,steps +1), dtype = np.float64)
     sv[0,0] = stock_price
     z1 = 0 
@@ -36,7 +36,7 @@ def tree(stock_price, strike_price, rf, volatility, div_yield, steps, flavor):
         for n in range(z1 + 1):
             sv[n,i] = sv[0,0] * (u ** (i - n)) * (d ** n)
 			
-	#matrix with the final payoff depending on put or call
+	#Matrix with the final payoff depending on put or call
     iv = np.zeros((steps + 1,steps +1), dtype = np.float64)
     z2 = 0
     for i in range(1,steps + 1, 1):
@@ -65,7 +65,7 @@ def tree(stock_price, strike_price, rf, volatility, div_yield, steps, flavor):
     return(pv[0,0])
 
 	
-#black-scholes model
+#Black-Scholes model
 def phi(x):
     #Cumulative distribution function for the standard normal distribution
     return (1.0 + erf(x / sqrt(2.0))) / 2.0
@@ -74,16 +74,16 @@ def black_scholes_call(stock_price, strike_price, rf, volatility, div_yield, c_o
 	#Black Scholes formula for call and put options
 	d1 = (math.log(stock_price/strike_price) + rf - div_yield + volatility**2/2)/volatility
 	d2 = d1 - volatility
-	#call price
+	#Call price
 	call_bs = stock_price * phi(d1) - exp(-rf) * strike_price * phi(d2)
-	#put price
+	#Put price
 	put_bs = exp(-rf) * strike_price * phi(-d2) - stock_price * phi(-d1)
 	if c_or_p == 'C':
 		return(call_bs)
 	elif c_or_p == 'P':
 		return(put_bs)
 	else:
-		print('You have to select your option to be either a call(1) or a put(2)')
+		print('You have to select your option to be either a call(C) or a put(P)')
 		
 if __name__ == "__main__":	
 	#inputs for Black Scholes model
@@ -102,6 +102,6 @@ if __name__ == "__main__":
 	diff = tree(stock_price, strike_price, rf, volatility, div_yield, steps, flavor) - black_scholes_call(stock_price, strike_price, rf, volatility, div_yield, c_or_p)
 	print('Price of this option using Binomial Tree model is ', tree(stock_price, strike_price, rf, volatility, div_yield, steps, flavor))  
 	print('Price of this option using Black-Scholes model is ', black_scholes_call(stock_price, strike_price, rf, volatility, div_yield, c_or_p))  
-	print('Price difference by using the two method is', diff)
+	print('Price difference between these two methods is', diff)
 	
 
