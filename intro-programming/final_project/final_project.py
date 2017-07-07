@@ -6,13 +6,11 @@ import numpy as np
 import sys
 from math import *
 
-#Time to expiration in years
-t = 1
 
 #Binomial Tree model
 def tree(stock_price, strike_price, rf, volatility, div_yield, steps, flavor):
 	#Inputs
-    Dt = t / steps
+    Dt = 1 / steps #set time to expiration equal to 1
     r_Dt = rf * Dt
     exp_r_Dt = math.exp(r_Dt)
     exp_neg_r_Dt = math.exp(-r_Dt)
@@ -83,9 +81,9 @@ def black_scholes_call(stock_price, strike_price, rf, volatility, div_yield, c_o
 	elif c_or_p == 'P':
 		return(put_bs)
 	else:
-		print('You have to select your option to be either a call(C) or a put(P)')
+		print("You have to select your option to be either a call('C') or a put('P')")
 		
-if __name__ == "__main__":	
+if __name__ == "__main__":		
 	#inputs for Black Scholes model
 	stock_price = float(sys.argv[1])
 	strike_price = float(sys.argv[2])
