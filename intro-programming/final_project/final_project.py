@@ -8,7 +8,7 @@ from math import *
 
 
 #Binomial Tree model
-def tree(stock_price, strike_price, rf, volatility, div_yield, steps, flavor):
+def tree(stock_price, strike_price, rf, volatility, div_yield, steps, c_or_p):
 	#Inputs
     Dt = 1 / steps #set time to expiration equal to 1
     r_Dt = rf * Dt
@@ -40,9 +40,9 @@ def tree(stock_price, strike_price, rf, volatility, div_yield, steps, flavor):
     for i in range(1,steps + 1, 1):
         find = False
         for n in range(z2 + 2):
-            if flavor == "C":
+            if c_or_p == "C":
                 iv[n,i] = max(sv[n,i] - strike_price, 0)
-            elif flavor == "P":
+            elif c_or_p == "P":
                 iv[n,i] = max(-1 * (sv[n,i] - strike_price), 0)
             else:
                 print("fravor has to be 'C' for call and 'P' for put")
@@ -93,12 +93,11 @@ if __name__ == "__main__":
 	c_or_p = sys.argv[6]
 	
 	#inputs for Binomial Tree model
-	flavor = c_or_p
 	steps = int(sys.argv[7])
 	
 	#calculate the difference between two methods
-	diff = tree(stock_price, strike_price, rf, volatility, div_yield, steps, flavor) - black_scholes_call(stock_price, strike_price, rf, volatility, div_yield, c_or_p)
-	print('Price of this option using Binomial Tree model is ', tree(stock_price, strike_price, rf, volatility, div_yield, steps, flavor))  
+	diff = tree(stock_price, strike_price, rf, volatility, div_yield, steps, c_or_p) - black_scholes_call(stock_price, strike_price, rf, volatility, div_yield, c_or_p)
+	print('Price of this option using Binomial Tree model is ', tree(stock_price, strike_price, rf, volatility, div_yield, steps, c_or_p))  
 	print('Price of this option using Black-Scholes model is ', black_scholes_call(stock_price, strike_price, rf, volatility, div_yield, c_or_p))  
 	print('Price difference between these two methods is', diff)
 	
