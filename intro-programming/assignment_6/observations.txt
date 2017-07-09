@@ -1,0 +1,1 @@
+I noticed that the average displacement will increase if the number of steps increases. However, with the number of runs changes, the average displacement seems unaffected.
