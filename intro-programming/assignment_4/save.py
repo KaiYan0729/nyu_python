@@ -1,7 +1,7 @@
+#!/usr/bin/env python3
 import os
 import sys
 
-#parsedTask = parseArguments(sys.argv)
 
 def parseArguments(argvArray):
     """ Since sys.argv includes the name of the script itself, we omit
@@ -19,3 +19,8 @@ def saveTask(taskString):
     dbPath = os.path.join( os.getenv("HOME"), dbFilename )
     with open(dbPath, "a") as myfile:
         myfile.write(taskString)
+
+		
+if __name__ == "__main__":
+	parsedTask = parseArguments(sys.argv)
+	print(parsedTask)
