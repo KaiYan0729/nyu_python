@@ -1,0 +1,6 @@
+- {FavColor: Red, FavMovie: Focus, FirstName: Josh, LastName: Lewis, MonthOfBirth: '7',
+  YearOfBirth: '1989'}
+- {FavColor: Green, FavMovie: Taken, FirstName: Kevin, LastName: Murry, MonthOfBirth: '9',
+  YearOfBirth: '1985'}
+- {FavColor: Blue, FavMovie: Inception, FirstName: Sean, LastName: Williamms, MonthOfBirth: '3',
+  YearOfBirth: '1994'}
