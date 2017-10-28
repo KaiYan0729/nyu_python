@@ -1,0 +1,4 @@
+{"name": "SoHo",
+ "description": "Now you are in SoHo. SoHo (SOuth of HOuston – pronounced How-ston) is another NYC neighborhood filled with the best shopping and restaurants. Traditionally known as a haven for artists and their lofts, it has become more upscale over the years and a much sought-after place for New Yorkers to live.",
+ "neighbors":{"n": 6, "s": 8, "e":10}
+}

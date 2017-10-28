@@ -1,0 +1,4 @@
+{"name": "East Village",
+ "description": "Now you are in East Village. While originally part of the Lower East Side, an immigrant neighborhood, the East Village NY, has separated itself and become home to some of the City's best restaurants, shops and nightlife. It is full of character, fine dining, shops and live music, and includes a subsection named 'Alphabet City.' East Village culture ranges from tattoo parlors and 'dive bars' to some of New York City's nicest hip and trendy hotels.",
+ "neighbors":{"n": 12, "s": 14, "w": 10}
+}

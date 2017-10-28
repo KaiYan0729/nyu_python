@@ -1,0 +1,4 @@
+{"name": "Times Square/Broadway",
+ "description": "You are standing in the Times Square. Times Square New York and the Theater District are home to some of New York City's most popular tourist attractions. Of course, Broadway, also known as the Great White Way, is most definitely for locals as well. Spend a bit of time here and make sure to see the lights at night, but remember, it is only 5 blocks, a tiny part of Manhattan!.",
+ "neighbors":{"n": 3, "s": 5, "w": 2, "e": 4}
+}

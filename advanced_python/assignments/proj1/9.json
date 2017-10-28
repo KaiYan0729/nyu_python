@@ -1,0 +1,4 @@
+{"name": "Chinatown/Little Italy",
+ "description": "Now you are in Chinatown/Little Italy. Chinatown NYC is a small, but very densely packed area of shops and restaurants. It is best to just walk around, enjoy the culture, pick up some souvenirs, and most definitely, eat some delicious and cheap Chinese food. Little Italy NYC is a small, but very densely packed area of shops and restaurants. It is best to just walk around and enjoy the culture.",
+ "neighbors":{"n": 10, "s": 11, "w": 8, "e": 14}
+}

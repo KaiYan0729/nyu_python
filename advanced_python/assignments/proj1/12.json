@@ -1,0 +1,4 @@
+{"name": "Union Square",
+ "description": "Now you are in Union Square. Union Square (my hood!), the Flatiron District and part of Greenwich Village all have a mix of residence and business tenants. Additionally, colleges such as NYU, The New School and FIT dominate the area, making it very fun and lively. It is one of the best dining areas in Manhattan, with something for every palate and budget. Gramercy is a very wealthy and residential area, with deliberately little commerce, as well as the famous Gramercy Park, where only a few elite have the elusive key.",
+ "neighbors":{"n": 4, "s": 13, "w": 5}
+}

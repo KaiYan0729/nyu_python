@@ -1,0 +1,4 @@
+{"name": "Lower East Side",
+ "description": "Now you are in Lower East Side. Traditionally, the Lower East Side was a working class immigrant neighborhood (think 'Gangs of New York'). Today it is a wonderfully ethnic and diverse neighborhood and serves as a shopping, dining and nightlife destination for many NYC locals. Even with all its modern upgrades, the LES retains a large amount of its history, especially it's Jewish, Polish, Irish and Italian cultures.",
+ "neighbors":{"n": 13, "s": 11, "w": 9}
+}

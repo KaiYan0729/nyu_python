@@ -1,0 +1,4 @@
+{"name": "Central Park",
+ "description": "Now you are in Central Park.Central Park NY has so much to see and do! Native New Yorkers always want to live'by the Park,'not just because of its beauty, but also for all the cool things to do there. Central Park draws between 37 and 38 million visits a year. Most everyone has their favorite Central Park spot and you can read more about them below.",
+ "neighbors":{"n": 17,"s": 1, "w": 15, "s": 1, "e": 16}
+}
