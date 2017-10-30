@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}Posts{% endblock %}
+{% block body %}
+<style>
+  body {
+      background-image: url("/static/3.jpg ");
+  }
+</style>
+
+<div class="jumbotron">
+  <h1>Kai's Posts</h1>
+  <p class="lead">I will post stock market follow-ups here.</p>
+</div>
+
+<p>
+    {% for post in posts %}
+<p>
+    <a href="{{ url_for('post', name=post.path.replace('posts/', '')) }}">
+            {{ post.title }}</a>
+            <small>{{ post.date }}</small>
+</p>
+    {% endfor %}
+<p>
+{% endblock %}
+
+
