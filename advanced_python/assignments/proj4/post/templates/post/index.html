@@ -1,0 +1,18 @@
+<ul>
+    <h1 align="center">Welcome to Kai's Personal Site</h1>
+    <p>My name is Kai, and I amcurrently working in the Banking industry as a Quantitative Finance Analyst.</p>
+    <p>I do almost all the sports, basketball, skiing, snorkeling, surfing, golf, hiking and etc.</p>
+    <p>I love wines, and I passed WSET Level II for wine tasting and currently working towards getting a Dipolma.</p>
+    <p>I will post intersting stuff here.</p>
+
+    <style>
+     body {
+      background-image: url("/static/1.jpg ");
+    }
+    </style>
+
+    {% for category in all_category %}
+    <li><a href="/post/{{ category.id }}/"> {{ category.topic }}</a></li>
+    {% endfor %}
+</ul>
+
